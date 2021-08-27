@@ -1,11 +1,21 @@
-## My Project
+# Welcome to HTTP CRUD API CDK TypeScript project!
 
-TODO: Fill this README out!
+This project contains the CDK code to deploy HTTP CRUD API as demonstrated in https://simple-crud-api.workshop.aws/. The CDK application creates the following resources:
 
-Be sure to:
+* API Gateway
+* Lambda Function
+* DynamoDB Table
 
-* Change the title in this README
-* Edit your repository description on GitHub
+Please run `cdk deploy` to deploy this stack in your AWS account.
+
+## Useful commands
+
+ * `npm run build`   compile typescript to js
+ * `npm run watch`   watch for changes and compile
+ * `npm run test`    perform the jest unit tests
+ * `cdk deploy`      deploy this stack to your default AWS account/region
+ * `cdk diff`        compare deployed stack with current state
+ * `cdk synth`       emits the synthesized CloudFormation template
 
 ## Security
 
