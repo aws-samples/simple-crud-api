@@ -6,7 +6,7 @@ This project contains the CDK code to deploy HTTP CRUD API as demonstrated in ht
 * Lambda Function
 * DynamoDB Table
 
-Please run `cdk deploy` to deploy this stack in your AWS account.
+Please run `cdk deploy` to deploy this stack in your AWS account. You can access API using {ApiGatewayUrl}/items
 
 ## Useful commands
 
